@@ -1,0 +1,95 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Body styles */
+body {
+  background-color: rgb(249, 249, 249);
+}
+
+/* Mobile body container */
+.mobile_body {
+  width: 375px;
+  height: 700px;
+  background-color: white;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+}
+
+/* Hamburger icon styles */
+.hamburger {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #6070FF;
+  padding: 10px;
+}
+
+/* Hero section styles */
+.hero_section {
+  background: white url("/assets/hero_body.png") no-repeat center;
+  height: 100vh;
+  width: 100%;
+  padding: 15px;
+
+}
+
+.hero_content{
+    position: relative;
+    top:60px;
+    padding: 20px;
+   
+}
+.hero_intro{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    width: 85%;
+    color: #172B4D;
+    line-height:52px;
+    font-weight: 400px;
+    overflow: hidden;
+}
+.intro_content{
+    font-size: 16px;   
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    color: #344563;
+    margin-top: 10px;
+    width: 327px;
+
+}
+.connection{
+    color: #7F8CFF;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.social{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
