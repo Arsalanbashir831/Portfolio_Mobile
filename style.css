@@ -88,6 +88,9 @@ body {
     display: flex;
     gap: 20px;
 }
+
+
+
 .portfolio_section{
     padding: 24px;
     margin-top: 114px;
@@ -182,17 +185,3 @@ h6{
     width: fit-content;
 }
 
-
-.myself_section{
-  background: white ;
-  height: 604px;
-  width: 100%;
-  padding: 15px;
-  border-radius: 50px 0 0 0;
-  overflow: hidden; 
-}
-.group_container{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
