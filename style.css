@@ -233,9 +233,10 @@ h6 {
   color: #253858;
 }
 
-.contact_section{
+.contact_section {
   background-color: white;
 }
+
 .contact-form {
   background: #6070ff url("/assets/contact_body.png") no-repeat;
   background-size: 60%;
@@ -246,7 +247,6 @@ h6 {
   padding: 15px;
   border-radius: 50px 0 0 0;
   height: 750px;
-  
 }
 
 .form_title {
@@ -282,11 +282,13 @@ h6 {
   width: 100%;
   margin-bottom: 10px;
 }
-footer{
+
+footer {
   background-color: #6070ff;
   height: 20px;
 }
-.end_bar{
+
+.end_bar {
   background-color: black;
   height: 6px;
   width: 40%;
