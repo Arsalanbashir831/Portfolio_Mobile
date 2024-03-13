@@ -204,26 +204,27 @@ h6 {
   flex-direction: column;
   gap: 15px;
 }
-.contact-form{
-  background: #6070FF url("/assets/contactForm_bg.png") no-repeat center;
-  
+
+.contact-form {
+  background: #6070ff url("/assets/contactForm_bg.png") no-repeat center;
   width: 100%;
   padding: 15px;
-  border-radius: 50px 0 0 0px;
+  border-radius: 50px 0 0 0;
   overflow: hidden;
   position: relative;
   top: -50px;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-.contact-form h1{
+
+.contact-form h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   margin-top: 20px;
- 
-} 
-.form_description{
+}
+
+.form_description {
   padding-bottom: 50px;
   color: white;
   font-size: 20px;
@@ -231,15 +232,17 @@ h6 {
   margin-top: 10px;
   width: 327px;
   text-align: center;
-} 
-.form_group{
+}
+
+.form_group {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 20px;
   padding: 0 20px;
 }
-.form_group input{
+
+.form_group input {
   width: 100%;
   padding: 14px;
   border-radius: 8px;
