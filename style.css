@@ -177,6 +177,20 @@ h6 {
   color: #6070ff;
 }
 
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .button {
   padding: 10px 20px;
   color: #236cea;
@@ -189,6 +203,15 @@ h6 {
   cursor: pointer;
   border: 2px solid #6070ff;
   width: fit-content;
+  transition: background-color 0.3s, color 0.3s; /* Apply transition */
+  animation: bounce 1.5s infinite; /* Apply bounce animation */
+}
+
+/* Apply hover animation */
+.button:hover {
+  background-color: #6070ff;
+  color: white;
+  animation: none; /* Disable bounce animation on hover */
 }
 
 .myself_section {
@@ -200,6 +223,7 @@ h6 {
 }
 
 .group_container {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 15px;
