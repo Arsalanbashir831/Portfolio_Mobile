@@ -220,6 +220,7 @@ h6 {
   padding: 15px;
   border-radius: 50px 0 0 0;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 
 .group_container {
@@ -254,4 +255,104 @@ h6 {
   font-size: 15px;
   overflow: hidden;
   color: #253858;
+}
+
+.contact_section {
+  background-color: white;
+}
+
+.contact-form {
+  background: #6070ff url("/assets/contact_body.png") no-repeat;
+  background-size: 60%;
+  background-position: right;
+  background-position-y: 10px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-radius: 50px 0 0 0;
+  height: 750px;
+  opacity: 0; /* Start with opacity 0 */
+  animation: fadeInAnimation 1s ease forwards; /* Apply fade-in animation */
+}
+
+/* Define the fade-in animation */
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.form_title {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 70px;
+  transform: translateY(-50px); /* Start with translateY -50px */
+  transition: transform 0.5s ease; /* Apply transition */
+}
+
+/* Apply slide-in animation on hover */
+.form_title:hover {
+  transform: translateY(0); /* Slide in form title */
+}
+
+.form_description {
+  font-size: 20px;
+  line-height: 24px;
+  width: 327px;
+  overflow: hidden;
+  padding-bottom: 40px;
+  font-weight: 300;
+  transform: scale(0.8); /* Start with scale 0.8 */
+  transition: transform 0.5s ease; /* Apply transition */
+}
+
+/* Apply scale-up animation on hover */
+.form_description:hover {
+  transform: scale(1); /* Scale up form description */
+}
+
+.form_group input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form_group textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.button input {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  border: none;
+  cursor: pointer;
+  color: #6070ff;
+}
+
+footer {
+  background-color: #6070ff;
+  height: 20px;
+}
+
+.end_bar {
+  background-color: black;
+  height: 6px;
+  width: 40%;
+  margin: auto;
+  border-radius: 8px;
 }
