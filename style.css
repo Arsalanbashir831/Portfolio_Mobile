@@ -362,12 +362,17 @@ footer {
     width: 100%;
   }
 
+  .hero_content {
+    position: relative;
+    top: 200px;
+    left: 150px;
+    padding: 20px;
+  }
+
   .hero_section {
     background: white url("/assets/header_desktop.svg") no-repeat center;
     background-position-y: -10%;
-    height: 846px;
-    padding-left: 20%;
-    padding-top: 10%;
+    height: 750px;
   }
 
   .intro_content {
