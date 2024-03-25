@@ -344,7 +344,8 @@ h6 {
   cursor: pointer;
   color: #6070ff;
 }
-.whitebtn  :hover{
+
+.whitebtn :hover {
   background-color: #6070ff;
   color: white;
 }
@@ -421,20 +422,25 @@ footer {
     justify-content: start;
     align-items: start;
   }
+
   .contact-form {
-    background: #6070ff url("/assets/DesktopContactbg.svg") no-repeat center ;
+    background: #6070ff url("/assets/DesktopContactbg.svg") no-repeat center;
     background-size: contain;
   }
-  .form_group{
+
+  .form_group {
     width: 50%;
     margin: auto;
   }
-  .form_description{
+
+  .form_description {
     width: 569px;
   }
+
   .whitebtn {
     margin: auto;
   }
+
   .end_bar {
     display: none;
   }
