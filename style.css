@@ -55,7 +55,8 @@ body {
   top: 60px;
   padding: 20px;
 }
-.navlinks{
+
+.navlinks {
   display: none;
 }
 
@@ -364,16 +365,20 @@ footer {
   .mobile_body {
     width: 100%;
   }
-  .hamburger{
+
+  .hamburger {
     display: none;
   }
-  .navlinks{
+
+  .navlinks {
     display: flex;
     gap: 20px;
   }
+
   .navlinks > li {
     list-style: none;
   }
+
   .navlinks > li > a {
     text-decoration: none;
     font-size: 12px;
@@ -381,9 +386,11 @@ footer {
     font-weight: 500;
     padding-left: 20px;
   }
-  .navbar{
+
+  .navbar {
     padding-right: 100px;
   }
+
   .hero_content {
     position: relative;
     top: 200px;
