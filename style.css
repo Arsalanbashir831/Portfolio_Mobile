@@ -356,3 +356,25 @@ footer {
   margin: auto;
   border-radius: 8px;
 }
+
+@media screen and (min-width: 375px) {
+  .mobile_body {
+    width: 100%;
+  }
+
+  .hero_section {
+    background: white url("/assets/header_desktop.svg") no-repeat center;
+    background-position-y: -10%;
+    height: 846px;
+    padding-left: 20%;
+    padding-top: 10%;
+  }
+
+  .intro_content {
+    width: 920px;
+  }
+
+  .end_bar {
+    display: none;
+  }
+}
