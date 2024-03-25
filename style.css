@@ -379,6 +379,18 @@ footer {
     width: 920px;
   }
 
+  .portfolio_card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+  .portfolio_card > div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
   .end_bar {
     display: none;
   }
