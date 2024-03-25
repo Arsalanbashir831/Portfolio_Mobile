@@ -379,6 +379,44 @@ footer {
     width: 920px;
   }
 
+  .portfolio_card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+  .portfolio_card > div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .myself_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    gap: 20px;
+    top: 100px;
+    left: 10px;
+  }
+
+  .myintro {
+    width: 100%;
+  }
+
+  .lang_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
   .end_bar {
     display: none;
   }
