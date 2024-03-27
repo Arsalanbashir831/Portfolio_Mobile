@@ -56,6 +56,14 @@ body {
   padding: 20px;
 }
 
+.close_div {
+  text-align: right;
+  width: 100%;
+}
+
+.close_icon {
+  padding: 0 20px;
+}
 
 .navlinks {
   backdrop-filter: blur(5px);
@@ -69,21 +77,25 @@ body {
   text-align: center;
   flex-direction: column;
   gap: 40px;
-  justify-content: center;
+  justify-content: start;
   z-index: 10;
   align-items: start;
   padding-left: 20px;
+  padding-top: 15px;
 }
+
 #menu {
-  display: none; 
+  display: none;
 }
 
 #menu.active {
-  display: flex; 
+  display: flex;
 }
+
 .navlinks > li {
   list-style: none;
 }
+
 .navlinks > li > a {
   text-decoration: none;
   font-size: 20px;
@@ -99,7 +111,6 @@ body {
   line-height: 52px;
   font-weight: 400px;
   overflow: hidden;
-
 }
 
 .intro_content {
