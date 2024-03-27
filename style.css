@@ -56,8 +56,39 @@ body {
   padding: 20px;
 }
 
+
 .navlinks {
-  display: none;
+  backdrop-filter: blur(5px);
+  display: flex;
+  position: absolute;
+  background-color: #6070ffb1;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  z-index: 10;
+  align-items: start;
+  padding-left: 20px;
+}
+#menu {
+  display: none; 
+}
+
+#menu.active {
+  display: flex; 
+}
+.navlinks > li {
+  list-style: none;
+}
+.navlinks > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
 }
 
 .hero_intro {
@@ -68,6 +99,7 @@ body {
   line-height: 52px;
   font-weight: 400px;
   overflow: hidden;
+
 }
 
 .intro_content {
